@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 
-sed -i 's/\[]/\["Your_Instance_Public_IP"]/' /home/ubuntu/Your_project_folder_name/mysite/settings.py
+sed -i 's/\[]/\["34.217.86.102"]/' /home/ubuntu/blogproject-app/blog/settings.py
 
 python manage.py migrate 
 # python manage.py makemigrations     

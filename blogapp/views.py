@@ -35,7 +35,7 @@ class PublicBlogView(APIView):
              print(e)
              return Response({
                    'data' : {},
-                   'message' : 'something went wrong in data access'
+                   'message' : 'something wents wrong in data access'
                 }, status= status.HTTP_400_BAD_REQUEST) 
      
     
